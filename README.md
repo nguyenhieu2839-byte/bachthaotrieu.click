@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<title>Bạch Thảo Triều</title>
+<title>Bách thảo triều</title>
 
 <style>
 
@@ -56,7 +56,7 @@ footer{
 
 <header>
 
-<h1>BẠCH THẢO TRIỀU</h1>
+<h1>Bách thảo triều</h1>
 <p>Website của tôi</p>
 
 </header>
@@ -90,7 +90,7 @@ footer{
 
 <footer>
 
-© 2026 Bạch Thảo Triều
+© 2026 Bách thảo triều
 
 </footer>
 
