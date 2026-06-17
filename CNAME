@@ -1,1 +1,298 @@
-bachthaotrieu.click
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bạch Thảo Triều</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f5f7fa;
+    color:#333;
+}
+
+
+/* MENU */
+
+header{
+    background:white;
+    padding:20px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+}
+
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#0066cc;
+}
+
+
+nav a{
+    margin-left:25px;
+    text-decoration:none;
+    color:#333;
+}
+
+
+
+/* BANNER */
+
+.banner{
+
+height:450px;
+
+background:
+linear-gradient(
+rgba(0,70,150,.7),
+rgba(0,70,150,.7)
+),
+url("https://images.unsplash.com/photo-1497366811353-6870744d04b2");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+color:white;
+
+}
+
+
+.banner h1{
+font-size:50px;
+}
+
+
+
+/* PHẦN */
+
+section{
+
+padding:60px;
+
+}
+
+
+.title{
+
+text-align:center;
+font-size:35px;
+color:#0066cc;
+
+}
+
+
+
+/* CARD */
+
+.cards{
+
+display:flex;
+gap:25px;
+justify-content:center;
+flex-wrap:wrap;
+
+}
+
+
+.card{
+
+background:white;
+
+width:300px;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 5px 20px #ddd;
+
+text-align:center;
+
+}
+
+
+
+.card h3{
+
+color:#0066cc;
+
+}
+
+
+
+/* LIÊN HỆ */
+
+.contact{
+
+background:#0066cc;
+
+color:white;
+
+text-align:center;
+
+}
+
+
+
+button{
+
+padding:12px 25px;
+
+border:0;
+
+border-radius:20px;
+
+background:white;
+
+color:#0066cc;
+
+}
+
+
+/* FOOTER */
+
+footer{
+
+background:#222;
+
+color:white;
+
+text-align:center;
+
+padding:20px;
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+BẠCH THẢO TRIỀU
+</div>
+
+
+<nav>
+
+<a href="#">Trang chủ</a>
+
+<a href="#about">Giới thiệu</a>
+
+<a href="#service">Dịch vụ</a>
+
+<a href="#contact">Liên hệ</a>
+
+</nav>
+
+
+</header>
+
+
+
+
+<div class="banner">
+
+<div>
+
+<h1>CÔNG TY BẠCH THẢO TRIỀU</h1>
+
+<p>Uy tín - Chất lượng - Chuyên nghiệp</p>
+
+
+</div>
+
+</div>
+
+
+
+
+<section id="about">
+
+
+<h2 class="title">
+Giới thiệu
+</h2>
+
+
+<p style="text-align:center">
+
+Chúng tôi cung cấp các giải pháp chuyên nghiệp,
+mang lại giá trị bền vững cho khách hàng.
+
+</p>
+
+
+</section>
+
+
+
+
+
+<section id="service">
+
+
+<h2 class="title">
+Dịch vụ
+</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>Dịch vụ 1</h3>
+
+<p>Mô tả dịch vụ của công ty.</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Dịch vụ 2</h3>
+
+<p>Mô tả dịch vụ của công ty.</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Dịch vụ 3</h3>
+
+<p>Mô tả dịch vụ của công ty.</p>
+
+</div>
+
+
+</div>
+
+
+</section>
